@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/lineLeft"
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:background="#E78A14"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tvLevel"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:text="Lv1"/>
+
+        <ImageView
+            android:id="@+id/lineRight"
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:background="#E78A14"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="60积分"/>
+</LinearLayout>
