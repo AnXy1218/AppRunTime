@@ -30,7 +30,7 @@ public class SystemTool {
      * @return
      */
     public static boolean getUsageStatsList(Context context) {
-        if (Build.VERSION.SDK_INT >= 21) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             UsageStatsManager usage = (UsageStatsManager) context.getSystemService
                     (Context.USAGE_STATS_SERVICE);
 //            Calendar calendar = Calendar.getInstance();
