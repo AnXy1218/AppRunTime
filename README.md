@@ -1,5 +1,6 @@
 # 统计Android前台应用保持时长
 ##### 目录结构
+```
 ├── build                      // 构建相关
 ├── config                     // 配置相关
 ├── src                        // 源代码
@@ -25,3 +26,4 @@
 ├── favicon.ico                // favicon图标
 ├── index.html                 // html模板
 └── package.json               // package.json
+```
