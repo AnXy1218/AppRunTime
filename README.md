@@ -37,6 +37,6 @@
 ├── settings.gradle
 ```
 ##### 运行效果
-![img/rusult.gif]()
+![img/result.gif]()
 
 ##### 相关介绍：[Android跳转到第三方app，运行时长监听](https://www.jianshu.com/p/211b48966b0f)
