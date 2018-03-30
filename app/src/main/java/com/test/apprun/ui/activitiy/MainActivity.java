@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
             }
         }
 
-        if (Build.VERSION.SDK_INT >= 23){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             if (!Settings.canDrawOverlays(MainActivity.this)){
                 //已获取悬浮窗
                 //若没有权限，提示获取.

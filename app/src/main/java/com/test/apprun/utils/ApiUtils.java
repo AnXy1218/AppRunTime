@@ -6,5 +6,6 @@ package com.test.apprun.utils;
  */
 
 public class ApiUtils {
-    public static final String TARGET_PACKGAGE_NAME = "com.tencent.mobileqq";
+//    public static final String TARGET_PACKGAGE_NAME = "com.tencent.mobileqq";
+    public static final String TARGET_PACKGAGE_NAME = "com.android.chrome";
 }

@@ -12,7 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="跳转到QQ"
+        android:text="打开Google浏览器"
         android:background="#ff0000"/>
 
     <TextView
